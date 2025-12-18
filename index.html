@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Guidance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+  <h1>Career Advice</h1>
+</header>
+
+  <div class="container">
+    <h1>Career Guidance Assistant</h1>
+    <p>Select your current life phase:</p>
+
+   <div class="phases">
+  <div class="card" onclick="selectPhase(this,'After 10th')">After 10th</div>
+  <div class="card" onclick="selectPhase(this,'After 12th')">After 12th</div>
+  <div class="card" onclick="selectPhase(this,'Graduation')">Graduation</div>
+  <div class="card" onclick="selectPhase(this,'Career Switch')">Career Switch</div>
+</div>
+
+    <button id="continueBtn" onclick="goNext()" disabled>Continue</button>
+  </div>
+
+  <script>
+    let selectedPhase = "";
+let selectedCard = null;
+
+function selectPhase(card, phase) {
+  selectedPhase = phase;
+
+  // Remove highlight from previous selection
+  if(selectedCard) {
+    selectedCard.style.background = "white";
+    selectedCard.style.color = "black";
+  }
+
+  // Highlight current selection
+  card.style.background = "#007bff";
+  card.style.color = "white";
+  selectedCard = card;
+
+  // Enable Continue button with animation
+  const btn = document.getElementById("continueBtn");
+  btn.disabled = false;
+  btn.style.transform = "scale(1.05)";
+  setTimeout(()=>{ btn.style.transform = "scale(1)"; }, 150);
+}
+
+function goNext() {
+  if (selectedPhase === "") {
+    alert("Please select a life phase");
+    return;
+  }
+  localStorage.setItem("lifePhase", selectedPhase);
+  window.location.href = "chatbot.html";
+}
+</script>
+
+<footer class="site-footer">
+  © 2025 Abhi The Great
+</footer>
+
+</body>
+</html>

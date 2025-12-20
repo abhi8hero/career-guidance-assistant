@@ -32,7 +32,7 @@ body {
   flex-direction: column;
 
   background-image: url("assets/background.png");
-  background-size: cover;
+  background-size: 550px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -349,3 +349,4 @@ button:disabled {
     flex-wrap: wrap;
   }
 }
+

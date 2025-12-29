@@ -13,15 +13,17 @@ This project was built to strengthen frontend logic, user interaction, and real-
 
 
 ## 🚀 Live Demo
-🔗 Live Demo:  https://abhi8hero.github.io/career-guidance-assistant/
+🔗 Live Demo:  https://abhi8hero.github.io/career-guidance-assistant/                                                                                                                                           
 🚧 Currently running locally / on Github
 
 
 ## 📸 Screenshots
 ## Landing page:
 <img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/a16d7d25-02df-4148-b9d3-924f9d61a009" />
+
 ## Chatbot:
 <img width="948" height="911" alt="image" src="https://github.com/user-attachments/assets/ee70baf4-8e22-477f-abf1-58eec65878b0" />
+
 ## Result / Output page:
 <img width="1919" height="717" alt="image" src="https://github.com/user-attachments/assets/c020b860-c582-4b49-894d-339e7b836190" />
 <img width="1919" height="771" alt="image" src="https://github.com/user-attachments/assets/3b0af0f5-8e6f-4b3c-9eea-a64a512d2d30" />

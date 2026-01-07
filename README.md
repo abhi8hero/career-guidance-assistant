@@ -46,6 +46,6 @@ This project was built to strengthen frontend logic, user interaction, and real-
 ## 👨‍💻 Developed By                                                                                        
 Abhishek Ugare                                                                                                                                                                                   
 Email: abhishekugare1289@gmail.com                                
-LinkedIn: www.linkedin.com/in/abhishek-ugare-1021302a9                                                                                                                                                          
+LinkedIn: www.linkedin.com/in/abhishek-ugare-a289s85k                                                                                                                                                                 
 Portfolio: ####
 

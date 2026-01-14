@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Career Suggestions</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+<!-- Floating Bot Button -->
+<div class="floating-bot" onclick="toggleBot()">
+  🤖
+</div>
+
+<!-- Floating Bot Chat Box -->
+<div id="floatingBotBox" class="floating-bot-box">
+  <div class="bot-header">
+    Career Bot
+    <span onclick="toggleBot()">✖</span>
+  </div>
+
+  <iframe 
+    src="https://abhi-the-great-arya-ai.hf.space"
+    title="Career Bot">
+  </iframe>
+</div>
+
 
 <div class="results-container">
   <h1 class="results-title">🎯 Your Career Suggestions</h1>
@@ -15,5 +35,28 @@
 </div>
 
 <script src="results.js"></script>
+
+<script>
+  function toggleBot() {
+    const box = document.getElementById("floatingBotBox");
+    box.style.display = box.style.display === "block" ? "none" : "block";
+  }
+
+  // Close bot when clicking outside
+  document.addEventListener("click", function (event) {
+    const botBox = document.getElementById("floatingBotBox");
+    const botBtn = document.querySelector(".floating-bot");
+
+    // If bot is open
+    if (botBox.style.display === "block") {
+      // Clicked outside both bot box and floating button
+      if (!botBox.contains(event.target) && !botBtn.contains(event.target)) {
+        botBox.style.display = "none";
+      }
+    }
+  });
+</script>
+
+
 </body>
 </html>

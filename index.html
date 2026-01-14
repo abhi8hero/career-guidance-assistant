@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Career Guidance</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,6 +24,24 @@
 
     <button id="continueBtn" onclick="goNext()" disabled>Continue</button>
   </div>
+
+<!-- Floating Bot Button -->
+<div class="floating-bot" onclick="toggleBot()">
+  🤖
+</div>
+
+<!-- Floating Bot Chat Box -->
+<div id="floatingBotBox" class="floating-bot-box">
+  <div class="bot-header">
+    Career Bot
+    <span onclick="toggleBot()">✖</span>
+  </div>
+
+  <iframe 
+    src="https://abhi-the-great-arya-ai.hf.space"
+    title="Career Bot">
+  </iframe>
+</div>
 
   <script>
     let selectedPhase = "";
@@ -57,6 +76,27 @@ function goNext() {
   localStorage.setItem("lifePhase", selectedPhase);
   window.location.href = "chatbot.html";
 }
+
+function toggleBot() {
+  const box = document.getElementById("floatingBotBox");
+  box.style.display = box.style.display === "block" ? "none" : "block";
+  }
+
+// Close bot when clicking outside
+document.addEventListener("click", function (event) {
+  const botBox = document.getElementById("floatingBotBox");
+  const botBtn = document.querySelector(".floating-bot");
+
+  // If bot is open
+  if (botBox.style.display === "block") {
+  // Clicked outside both bot box and floating button
+  if (!botBox.contains(event.target) && !botBtn.contains(event.target)) {
+      botBox.style.display = "none";
+      }
+    }
+  });
+
+
 </script>
 
 <footer class="site-footer">

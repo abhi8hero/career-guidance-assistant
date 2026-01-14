@@ -23,6 +23,8 @@ This project was built to strengthen frontend logic, user interaction, and real-
 
 ## Chatbot:
 <img width="948" height="911" alt="image" src="https://github.com/user-attachments/assets/ee70baf4-8e22-477f-abf1-58eec65878b0" />
+<img width="479" height="912" alt="image" src="https://github.com/user-attachments/assets/fe16d47c-f8ad-4850-b29f-0a0b61c59b35" />
+
 
 ## Result / Output page:
 <img width="1919" height="717" alt="image" src="https://github.com/user-attachments/assets/c020b860-c582-4b49-894d-339e7b836190" />

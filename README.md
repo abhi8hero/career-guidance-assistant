@@ -29,7 +29,8 @@ This project was built to strengthen frontend logic, user interaction, and real-
 
 
 ## Result / Output page:
-![Screenshot_16-1-2026_11442_abhi8hero github io](https://github.com/user-attachments/assets/d04123fd-3a55-45eb-89d4-37ea29ba2472)
+![Screenshot_16-1-2026_11442_abhi8hero github io](https://github.com/user-attachments/assets/076170f1-8072-4ab3-bd42-b97e1cecb17f)
+
 
 
 

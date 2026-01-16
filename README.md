@@ -19,11 +19,13 @@ This project was built to strengthen frontend logic, user interaction, and real-
 
 ## 📸 Screenshots
 ## Landing page:
-<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/a16d7d25-02df-4148-b9d3-924f9d61a009" />
+<img width="1919" height="839" alt="image" src="https://github.com/user-attachments/assets/86ac3f19-52ed-4611-bc91-b89c7a651452" />
+
 
 ## Chatbot:
-<img width="948" height="911" alt="image" src="https://github.com/user-attachments/assets/ee70baf4-8e22-477f-abf1-58eec65878b0" />
-<img width="479" height="912" alt="image" src="https://github.com/user-attachments/assets/fe16d47c-f8ad-4850-b29f-0a0b61c59b35" />
+![Uploading image.png…]()
+<img width="483" height="699" alt="image" src="https://github.com/user-attachments/assets/76654427-a2c6-452e-be59-a27cb3e0e772" />
+<img width="473" height="716" alt="image" src="https://github.com/user-attachments/assets/434712c1-8ebe-4a3d-81c4-c16f73fde7de" />
 
 
 ## Result / Output page:
